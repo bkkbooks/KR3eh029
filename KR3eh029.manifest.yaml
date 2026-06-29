@@ -1,0 +1,95 @@
+canonical_identifier: bkk:krp/KR3eh029/v1
+canonical_location: https://kanripo.org/bkk/KR3eh029/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 醫學碎金
+  identifiers:
+    krp: KR3eh029
+  tags:
+    kr-categories: KR3eh
+    tls-dates: dat04250
+  source:
+    repository: tls-texts
+    path: data/tls/KR3eh029.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 0, filename: KR3eh029_000.yaml, hash: 'sha256:490cfc931b667cb31a96fbb5bda4505a238e626a945546dda66c84daa778a945'}
+  - {seq: 1, filename: KR3eh029_001.yaml, hash: 'sha256:58d7f7714064db58ebc504ccf1907d132e2e4a0cad11a573234a76bb5419338f'}
+  - {seq: 2, filename: KR3eh029_002.yaml, hash: 'sha256:13accb8b7fff39158b3835c90596910babada7b6572bdf7f3a8438bcafb43e92'}
+  - {seq: 3, filename: KR3eh029_003.yaml, hash: 'sha256:cf3a009c0a69d238aae8243da27c30726cc8fc179d85681b8f0ff01946559b1b'}
+  - {seq: 4, filename: KR3eh029_004.yaml, hash: 'sha256:2e218f8beb6dec1b7bb40deea669a553250ecd557c53726970f9a37dd102de45'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3eh029_000.markers.yaml, hash: 'sha256:3cbfee1cf2a0de4989eeeccf090a6a22b1ffd1966968c2a057fe551a4c122310'}
+  - {seq: 1, role: markers, filename: assets/KR3eh029_001.markers.yaml, hash: 'sha256:e5e4fa6a711b5928931680a259e6adf9b817e8b4fa7d5897757f0e5baca6ac01'}
+  - {seq: 2, role: markers, filename: assets/KR3eh029_002.markers.yaml, hash: 'sha256:e8182159b3b3ccd13221067a9a73899cafecf66e13eac888abb0487f460702dd'}
+  - {seq: 3, role: markers, filename: assets/KR3eh029_003.markers.yaml, hash: 'sha256:6e7f2ddec93a5e9df45216e31a8f60cca674d004ac202325f0e052f7956d5407'}
+  - {seq: 4, role: markers, filename: assets/KR3eh029_004.markers.yaml, hash: 'sha256:8c8f4b366500bb2fbef5bcb7c1bea42f9b2091304cdfd0e2cc1444cf829b6b88'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3eh029_jc_000-d2.h1s1
+    span:
+    - front
+    - 0
+    - 766
+  label: 序
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR3eh029_jc_001-d3.h1s1
+    span:
+    - body
+    - 0
+    - 3685
+  label: 卷之一
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR3eh029_jc_001-d3d2
+    span:
+    - body
+    - 3
+    - 3685
+  label: 論人之育孕胚胎
+  type: section
+  level: 2
+- ref:
+    seq: 2
+    marker_id: KR3eh029_jc_002-d4.h1s1
+    span:
+    - body
+    - 0
+    - 4204
+  label: 卷之二
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR3eh029_jc_003-d5.h1s1
+    span:
+    - body
+    - 0
+    - 6196
+  label: 卷之三
+  type: section
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR3eh029_jc_004-d6.h1s1
+    span:
+    - body
+    - 0
+    - 4385
+  label: 卷之四
+  type: section
+  level: 1
+hash: sha256:658e3123d27ab2026522d185d026c226b0f8f4b61c0e8cd4ba19d766f20a19e9
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
